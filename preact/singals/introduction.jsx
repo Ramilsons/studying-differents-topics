@@ -9,7 +9,7 @@
 */
 
 /* 1) Export Signal by Preact */
-const { signal } from "@preact/signals";
+import { signal } from "@preact/signals";
 
 /* 2) Create a variable with default value */
 const count = signal(0); // in this case, default value is 0
